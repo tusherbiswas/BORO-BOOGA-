@@ -1,0 +1,110 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20% auto;
+    z-index: 1;
+    display:flex ;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 2;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    
+
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 2 4;
+}
+
+h1{ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+
+.orange-color{
+    padding-left: 350px;
+    color: orange;
+    text-align: center;
+
+
+}
+.half-width{
+    width: 100%
+
+}
+.tag-intro{
+    font-size:xx-small;
+    padding-left: 650px;
+}
+.blue-color{
+    color:steelblue;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.intro-img img{
+    width: 1000px;
+    padding-top: 5%;
+
+}
+.link-button{ margin-left: 550px;
+    background-color:rgb(245, 167, 0);
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    padding: 2% 2%;
+    border-radius: 5px;
+    background-image:linear-gradient (orange tomato );
+    font-weight: 700;
+    
+}
+.top-banner{
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-image: url(images/banner1.png);
+
+    
+}
+.ui-ux{
+    width: 60%;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+    box-shadow: 10px 10px 50px gray ;
+    border-top: 5px solid;
+}
+.desings{
+      color: powderblue;
+      padding-left: 100px;
+}
+.text{
+    padding-left: 10%;
+    color: rgb(241, 129, 245);
+    text-decoration: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text1{
+    text-align: center;
+    color: rgb(99, 1, 99);
+    font-family: 'Times New Roman', Times, serif;
+
+}
